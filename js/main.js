@@ -136,3 +136,124 @@ console.log(!soyMayor); // true
 var password = 'pepe1234';
 
 password === 'juan1234' ? console.log('Bienvenido') : console.log('Contraseña errónea');
+
+/* Estructuras */
+// Estructura condicional if
+// sintaxis
+// if (condicion) {
+    // código a ejecutar si se cumple la condicion
+// }
+
+var n = 10;
+var o = 12;
+
+if (n < o) {
+    console.log('n es menor que o'); // se ejecutará
+}
+
+// Estructura condicional if else
+// sintaxis
+// if (condicion) {
+    // código a ejecutar si se cumple la condicion
+// } else {
+    // código a ejecutar si no se cumple la condición
+// }
+
+o = 10;
+
+if (n < o) {
+    console.log('n es menor que o');
+} else {
+    console.log('n es mayor ó igual que o');
+}
+
+// Estructura condicional if else if
+// sintaxis
+// if (condicion) {
+    // código a ejecutar si se cumple la condicion
+// } else if (condicion) {
+    // código a ejecutar si se cumple la condición
+// } else {
+    // código a ejecutar si no se cumplen ninguna de las condiciones anteriores
+// } 
+
+if (n < o) {
+    console.log('n es menor que o');
+} else if (n === o) {
+    console.log('n es igual a o');
+} else {
+    console.log('n es mayor que o');
+}
+
+// Estructura condicional switch case
+// sintaxis
+// switch (expresion) {
+    //case caso1:
+        //código a ejecutar para ese caso
+        //break
+    //case caso2:
+        //código a ejecutar para ese caso
+        //break
+    //...
+    //default:
+        //código a ejecutar si no se cumple ningún caso
+//}
+
+var diaSemana = 2;
+
+switch (diaSemana) {
+    case 1:
+        console.log('Lunes');
+        break;
+    case 2:
+        console.log('Martes');
+        break;
+    case 3:
+        console.log('Miércoles');
+        break;
+    case 4:
+        console.log('Jueves');
+        break;
+    case 5:
+        console.log('Viernes');
+        break;
+    case 6:
+        console.log('Sábado');
+        break;
+    case 7:
+        console.log('Domingo');
+        break;
+    default:
+        console.log('Día erróneo');
+}
+
+// Estructuras ciclo o iterativas (bucles)
+
+// Ciclo For
+// sintaxis
+// for (valor inicial; condición; actualización) {
+    // código a ejecutar para cada iteración del ciclo
+//}
+
+for (i=0; i < 10; i++) {
+    console.log('En cada iteración i tiene el valor '+ i);
+}
+
+// Ciclo while
+// sintaxis
+// while (condicion) {
+    // código a ejecutar mientras se cumpla esa condición
+//}
+
+while (password !== '4321') {
+    password = prompt('Escriba su contraseña');
+}
+
+
+
+
+
+
+
+
+
